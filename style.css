@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(187, 181, 181);
+}
+#search {
+    margin: 20px 0;
+    text-align: center;
+}
+#profile {
+    text-align: center;
+}
+
+#top-left{
+    border: solid rgb(46, 131, 65);
+    border-radius: 15px;
+    display:inline-block;
+    width: 45%;
+    height: 380px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#player{
+    border: solid rgb(46, 131, 65);
+    border-radius: 15px;
+    display:inline-block;
+    width: 52%;
+    height: 380px;
+    display: inline-block;
+    vertical-align: top;
+}
+#artistSearch {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1db954;
+    color: white;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #17a348;
+}
+
+#albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #81967f; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.album img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.album h3 {
+    font-size: 16px;
+    margin: 10px 0 0;
+}
